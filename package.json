@@ -14,6 +14,7 @@
   "author": "joshua ayomide",
   "license": "ISC",
   "dependencies": {
+  "node-pre-gyp": "^0.16.0",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
