@@ -6,6 +6,10 @@
 	"scripts": {
 		"start": "node ./src/index.server.js"
 	},
+  "engines": {
+    "node": "14.6",
+    "npm" : "6.1"
+  },
 	"dependencies": {
 		"node-pre-gyp": "0.17.0",
 		"aws-sdk": "^2.809.0",
