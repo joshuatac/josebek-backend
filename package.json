@@ -14,8 +14,7 @@
   "author": "joshua ayomide",
   "license": "ISC",
   "dependencies": {
-  "node-pre-gyp": "^0.16.0",
-    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -24,6 +23,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.0",
     "multer": "^1.4.2",
+    "node-pre-gyp": "^0.16.0",
     "shortid": "^2.2.16"
   },
   "engines": {
