@@ -2,8 +2,11 @@ const express = require("express");
 const env = require("dotenv");
 const app = express();
 const mongoose = require("mongoose");
-const path = require('path');
-const cors = require('cors');
+const path = require("path");
+const cors = require("cors");
+
+
+
 
 //Routes
 const authRoutes = require('./routes/auth');
@@ -53,3 +56,4 @@ app.use('/api', adminOrderRoute);
 app.listen(process.env.PORT, () => {
 	console.log(`server is running on port ${process.env.PORT}`);
 });
+
