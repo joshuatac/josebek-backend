@@ -5,7 +5,7 @@ exports.createPage = (req, res) => {
 
 	if (banners && banners.length > 0) {
 		req.body.banners = banners.map((banner, index) => ({
-			img: `/${banner.filename}`,
+			img: `/public/${banner.filename}`,
 			navigateTo: `/bannerClicked?categoryId=${req.body.category}&type=${req.body.type}`,
 		}));
 	}
