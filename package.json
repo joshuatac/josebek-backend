@@ -4,8 +4,7 @@
 	"description": "This is a backend file",
 	"main": "index.js",
 	"scripts": {
-		"start": "node ./src/index.server.js",
-		"install": "node-pre-gyp install --fallback-to-build"
+		"start": "node ./src/index.server.js"
 	},
 	"dependencies": {
 		"node-pre-gyp": "0.17.0",
